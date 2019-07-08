@@ -8,6 +8,7 @@ toc: false
 urlname: emLinux-debug-note
 translate_title: embedded-linux-debugging-notes
 permalink: 1530547200
+abbrlink: db041d78
 date: 2018-07-03 00:00:00
 ---
 

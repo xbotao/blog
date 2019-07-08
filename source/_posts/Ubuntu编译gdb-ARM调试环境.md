@@ -8,6 +8,7 @@ tags:
   - Qt
 translate_title: ubuntu-compiles-gdbarm-debugging-environment
 permalink: 1531051707
+abbrlink: 4801eba
 date: 2018-07-08 20:08:27
 ---
 

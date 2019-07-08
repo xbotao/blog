@@ -7,6 +7,7 @@ categories:
 toc: true
 translate_title: travis-ci-implements-hexo-persistence-build
 permalink: 1562569033
+abbrlink: a40fe5e6
 date: 2019-07-08 14:57:13
 ---
 

@@ -8,6 +8,7 @@ toc: true
 draft: 'true'
 translate_title: django-production-environment-deployment
 permalink: 1561087684
+abbrlink: 77d6777
 date: 2019-06-21 11:28:04
 ---
 

@@ -8,6 +8,7 @@ toc: false
 urlname: 20181019200948
 translate_title: create-your-own-wechat-robot-using-python
 permalink: 1539950988
+abbrlink: 3ae292b3
 date: 2018-10-19 20:09:48
 ---
 
