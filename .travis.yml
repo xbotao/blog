@@ -1,0 +1,36 @@
+language: node_js
+node_js: stable
+
+# Travis-CI Caching
+cache:
+  directories:
+    - node_modules
+
+before_install:
+  - npm install hexo-cli -g
+
+install:
+  - npm install
+
+script:
+  - hexo clean
+  - hexo g # 我装了algolia的搜索工具。这一步正常可以是 hexo g
+
+
+after_script: # 推送到github的部分
+  - cd ./public
+  - git init
+  - git config user.name "xbotao"
+  - git config user.email "xbotao2014@163.com"
+  - git add .
+  - git commit -m -am "Travis CI Auto Builder :$(date '+%Y-%m-%d %H:%M:%S' -d '+8 hour')"
+  - git push --force --quiet "https://${blog}@${GH_REF}" master:master
+# E: Build LifeCycle
+
+branches:
+  only:
+    - master # 只对hexo分支构建
+
+env: # 环境变量
+ global:
+   - GH_REF: github.com:xbotao/xbotao.github.io.git
