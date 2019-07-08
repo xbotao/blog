@@ -82,4 +82,6 @@ server {
 ```
 然后执行
 执行`ln -s yuTa_nginx ../sites-enabled/yuTa_nginx`使其生效
+
 ## https配置
+暂无
