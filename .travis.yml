@@ -23,8 +23,8 @@ after_script: # 推送到github的部分
   - git config user.name "xbotao"
   - git config user.email "xbotao2014@163.com"
   - git add .
-  - git commit -m -am "Travis CI Auto Builder :$(date '+%Y-%m-%d %H:%M:%S' -d '+8 hour')"
-  - git push --force --quiet "https://${blog}@${GH_REF}" master:master
+  - git commit -m "Travis CI Auto Builder :$(date '+%Y-%m-%d %H:%M:%S' -d '+8 hour')"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 # E: Build LifeCycle
 
 branches:
