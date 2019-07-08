@@ -6,6 +6,7 @@ categories:
   - 技术文章
 toc: true
 translate_title: wes7-cutting-process
+permalink: 1562571058
 date: 2019-07-08 15:30:58
 ---
 

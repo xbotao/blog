@@ -8,6 +8,7 @@ tags:
   - Linux
   - Qt
 translate_title: configuring-qt596-crosscompilation-environment-under-ubuntu1804-x64
+permalink: 1530720000
 date: 2018-07-05 00:00:00
 ---
 

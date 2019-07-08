@@ -6,6 +6,7 @@ categories: []
 toc: false
 urlname: ubuntu-x64-Qt580
 translate_title: ubuntu-x64-build-qt580-development-environment
+permalink: 1528905600
 date: 2018-06-14 00:00:00
 ---
 
