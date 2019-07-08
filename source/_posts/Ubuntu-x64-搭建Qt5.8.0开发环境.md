@@ -1,13 +1,15 @@
 ---
-layout: post
 title: Ubuntu x64 搭建Qt5.8.0开发环境
-urlname: ubuntu-x64-Qt580
-date: 2018-06-14
 tags:
   - 嵌入式
+categories: []
+toc: false
+urlname: ubuntu-x64-Qt580
+translate_title: ubuntu-x64-build-qt580-development-environment
+date: 2018-06-14 00:00:00
 ---
 
-
+> 在64bit系统下搭建qt5.80 32bit的交叉编译环境
 
 1. 参照说明文档，复制交叉编译器 **arm-gcc** 和 **qt5.8.0** 到ubuntu 虚拟机中
 
@@ -36,5 +38,4 @@ tags:
    ```
 
 6. 配置Qt 编译器和 Qt 版本
-
-
+  【工具】-【选项】-【构建和运行】，分别设置 **编译器**、**Qt Version** 和 **构建套件**。

@@ -1,11 +1,12 @@
 ---
 layout: post
-title: C#-object与json字符串的转换
+title: 'C#-object与json字符串的转换'
 urlname: CSharp-object-convert-json
-date: 2018-04-14
 tags:
   - 编程
-  - C#
+  - 'C#'
+translate_title: 'conversion-of-c#-object-to-json-string'
+date: 2018-04-14 00:00:00
 ---
 
 C#中对象与字符串的转换借助第三方包`Newtonsoft.Json`实现。在工程上右键使用VS Nuget包管理进行添加。

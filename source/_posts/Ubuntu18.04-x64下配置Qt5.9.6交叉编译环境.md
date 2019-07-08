@@ -3,11 +3,12 @@ layout: post
 title: Ubuntu18.04 x64下配置Qt5.9.6交叉编译环境
 urlname: ubuntu1804-Qt5.9.6-compline
 key: 20180705
-date: 2018-07-05
 tags:
   - 嵌入式
   - Linux
   - Qt
+translate_title: configuring-qt596-crosscompilation-environment-under-ubuntu1804-x64
+date: 2018-07-05 00:00:00
 ---
 
 

@@ -15,7 +15,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://mr-xbt.cn
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:translate_title.html
 permalink_defaults:
 
 # Directory
@@ -74,6 +74,10 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: melody
+
+translate_title:
+  translate_way: google  # google,youdao,baidu_with_appid,baidu_no_appid
+  is_need_proxy: false     # true | false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

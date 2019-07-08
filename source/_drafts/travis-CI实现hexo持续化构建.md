@@ -5,6 +5,7 @@ tags:
 categories:
   - 随手小记
 toc: true
+translate_title: travis-ci-implements-hexo-persistence-build
 date: 2019-07-08 14:57:13
 ---
 

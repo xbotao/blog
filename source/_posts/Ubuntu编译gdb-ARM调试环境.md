@@ -2,11 +2,12 @@
 layout: post
 title: Ubuntu编译gdb-ARM调试环境
 urlname: ubuntu-arm-gdb
-date: 2018-07-08 20:08:27
 tags:
   - 嵌入式
   - Linux
   - Qt
+translate_title: ubuntu-compiles-gdbarm-debugging-environment
+date: 2018-07-08 20:08:27
 ---
 
 

@@ -6,23 +6,36 @@ categories:
   - 技术文章
 toc: true
 draft: 'true'
+translate_title: django-production-environment-deployment
 date: 2019-06-21 11:28:04
 ---
 
 > 使用`nginx+uwsgi`实现django生产环境的部署
 
-## 部署环境
+## 目标部署环境
 - 系统: ubuntu 18.04
 - uwsgi + django + nginx
 
 <!-- more -->
+
+## 准备工作
+
+1. 在Django工程路径下执行 `freeze > requirement.txt` 将需要用到的插件列表保存到文件中
+2. 将Django上传到git
 
 ## 部署过程
 ### python虚拟环境安装配置
 暂无
 
 ### django配置
-暂无
+
+1. 在工程路径下执行 `pip install -r requirement.txt` 安装需要的插件
+2. 执行 `python managy.py collectstatic`将静态文件收集到工程的 `static`路径下
+3. 执行以下指令，配置数据库
+    ```
+    python managy.py makemigrations
+    python managy.py migrate
+    ```
 
 ### uwsgi安装配置
 1. 安装uwsgi并进行测试
@@ -84,4 +97,4 @@ server {
 执行`ln -s yuTa_nginx ../sites-enabled/yuTa_nginx`使其生效
 
 ## https配置
-暂无
+暂无	 

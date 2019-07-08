@@ -1,16 +1,18 @@
 ---
-layout: post
 title: 嵌入式Linux调试笔记
-urlname: emLinux-debug-note
-date: 2018-07-03
 tags:
   - 嵌入式
+categories:
+  - 随手小记
+toc: false
+urlname: emLinux-debug-note
+translate_title: embedded-linux-debugging-notes
+date: 2018-07-03 00:00:00
 ---
 
-
+> 本文主要记录嵌入式Linux在开发调试过程中遇到的问题
 
 ### 1. JIT Issue
-
 
 **错误描述**
 
@@ -29,4 +31,3 @@ export QML2_IMPORT_PATH=$QTDIR/qml
    ```
 
 2. 参考 [(solved) JIT is disabled for QML](https://forums.gentoo.org/viewtopic-t-1077510-start-0-postdays-0-postorder-asc-highlight-.html?sid=458b9ef438aa1ebda6584fd2b2d15a6b) ， 该问题在Qt5.9.1以下版本中普遍存在，需要升级Qt版本到5.9.2以上或者 **KDE Frameworks** 版本 5.4.0以上
-
