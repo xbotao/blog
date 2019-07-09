@@ -14,11 +14,12 @@
 #   tag_end_color: "#1B9EF3"
 
 # Main menu navigation
-menu:
+menu:  
   首页: /
   归档: /archives
   标签: /tags
   分类: /categories
+  程控系列教程: /programctrl
   #XXX: /xxx
 
 # Favicon
