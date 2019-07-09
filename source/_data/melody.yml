@@ -2,13 +2,13 @@
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
-# theme_color:
-#   enable: true
+theme_color:
+  enable: true
 #   main: "#49B1F5"
 #   paginator: "#00C4B6"
 #   button_hover: "#FF7242"
 #   text_selection: "#00C4B6"
-#   link_color: "#858585"
+  link_color: "#55b8f9"
 #   hr_color: "#A4D8FA"
 #   tag_start_color: "#A4D8FA"
 #   tag_end_color: "#1B9EF3"
@@ -269,7 +269,7 @@ busuanzi:
 follow:
   enable: true
   url: 'https://github.com/xbotao'
-  text: 'Github'
+  text: 'Follow Me'
 
 # Ads
 # ---------------
